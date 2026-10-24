@@ -2,9 +2,9 @@ name: Build and Push Rate Limiter Docker Image
 
 on:
   push:
-    - main
+    - [ main ]
   pull_request:
-    - main
+    - [ main ]
 
 jobs:
   build-and-push:
