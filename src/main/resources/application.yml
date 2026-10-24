@@ -1,0 +1,9 @@
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+rate-limiter:
+  capacity: 10        #max tokens in the bucket
+  refill-rate: 2      #tokens added per second
